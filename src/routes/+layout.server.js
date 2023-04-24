@@ -1,9 +1,9 @@
 import GhostContentAPI from "@tryghost/content-api";
-import { GHOST_URL, GHOST_API_KEY } from "$env/static/private";
+// import { GHOST_URL, GHOST_API_KEY } from "$env/static/private";
 
 const api = new GhostContentAPI({
-  url: GHOST_URL,
-  key: GHOST_API_KEY,
+  url: "https://elnacional.link",
+  key: "fff2aa11a8f827564141b78e9d",
   version: "v5.0",
 });
 
