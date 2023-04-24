@@ -1,4 +1,5 @@
 import GhostContentAPI from "@tryghost/content-api";
+import { error } from "@sveltejs/kit";
 // import { GHOST_URL, GHOST_API_KEY } from "$env/static/private";
 
 const api = new GhostContentAPI({
