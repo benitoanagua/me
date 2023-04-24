@@ -7,13 +7,13 @@
   Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
 </p>
 {#await data.promise}
-  Loading planet...
+  Loading tags...
 {:then result}
   <ul>
     {#each result.tags as tag}
       <li>{tag.name}</li>
     {/each}
   </ul>
-{:catch someError}
-  System error: {someError.message}.
+{:catch error}
+  System error: {error.message}.
 {/await}
